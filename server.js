@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'mifxpt@gmail.com',
-    pass: process.env.GMAIL_APP_PASSWORD || 'KODE_16_KARAKTER_APP_PASSWORD' // Masukkan App Password dari Google
+    pass: process.env.GMAIL_APP_PASSWORD || 'KODE_16_KARAKTER_APP_PASSWORD' // Mengambil App Password dari Variables Railway
   }
 });
 
